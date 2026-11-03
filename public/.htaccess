@@ -1,0 +1,5 @@
+# Apache (WAMP / local dev). Production uses Nginx; see deploy/nginx.conf.
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [L,QSA]

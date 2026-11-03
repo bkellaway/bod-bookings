@@ -1,0 +1,31 @@
+# Secrets / local config
+.env
+.env.*
+!.env.example
+
+# Runtime data, logs, uploads
+/data/
+/logs/
+*.log
+*.sqlite
+*.db
+
+# Dependencies (if Composer is ever added)
+/vendor/
+
+# Build / deploy artifacts
+*.zip
+*.tar.gz
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+
+# Database dumps
+*.sql.gz
+dump*.sql
+backup*.sql
